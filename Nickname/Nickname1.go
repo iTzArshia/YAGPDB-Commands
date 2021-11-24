@@ -1,4 +1,5 @@
 /* Writed By iTz_Arshia */
+/* Only works in #Nickname Channel */
 /* Trigger Type : Regax */
 /* Trigger : \A */
 
