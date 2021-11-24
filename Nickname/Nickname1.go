@@ -1,3 +1,7 @@
+/* Writed By iTz_Arshia */
+/* Trigger Type : Regax */
+/* Trigger : \A */
+
 {{if hasRoleID "RoleID"}} /*inja ID Role OWNER ro mizarim ke Check kone agar Ersal konande Message On Role ro Dasht barash Embed paiin ro befreste*/
 {{$y := sendMessageRetID nil (complexMessage
  "content" .User.Mention /*inja Content Messagemone*/
