@@ -1,6 +1,7 @@
 /* Writed By iTz_Arshia */
 /* Only works in #Nickname Channel */
-/* Trigger Type : Reaction Add */
+/* Trigger Type : Reaction */
+/* Trigger : Reaction Add */
 
 {{deleteMessageReaction .Channel.ID .Message.ID .User.ID "Emoji"}} /*inja React Member ro pak mikone*/
 {{editNickname .User.Username}} /*inja ham Nickname Member ro be usernamesh edit mikone*/
