@@ -5,8 +5,8 @@
 
 {{if hasRoleID "RoleID"}} /*inja ID Role OWNER ro mizarim ke Check kone agar Ersal konande Message On Role ro Dasht barash Embed paiin ro befreste*/
 {{$y := sendMessageRetID nil (complexMessage
- "content" .User.Mention /*inja Content Messagemone*/
- "embed" (cembed "description" "**Man Nemitonam Nick Name Shoma ro Taghir bedam **" "color" 16776960))}} /*inja ham Embede Messagemone*/
+ "content" .User.Mention 
+ "embed" (cembed "description" "**Man Nemitonam Nick Name Shoma ro Taghir bedam **" "color" 16776960))}}
 {{deleteMessage nil $y 10}} /*inja bad az 10 Sanie payam ro pak mikone*/
 
 {{else if lt (len .Message.Content) 33}} /*va in khat yani agar mohtavaye Content az Limitemon rad nashod in Etefagh biofe !!*/
