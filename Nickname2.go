@@ -16,5 +16,3 @@
  
 {{deleteMessage nil $x 10}} /*inam ke hamontor ke ghablan goftam bade 10 sanie payamo pak mikone*/
 {{end}}
- 
-
